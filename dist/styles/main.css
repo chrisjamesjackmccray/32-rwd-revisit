@@ -1,45 +1,32 @@
 body {
   margin: 0;
   padding: 10px;
-  background-image: url('../assets/images/background.jpg');
-}
+  background-image: url("../assets/images/background.jpg"); }
 
 .headcontent {
-  width: 100%;
-
-  .topleft {
+  width: 100%; }
+  .headcontent .topleft {
     width: 250px;
     color: white;
-    margin: 0 0 0 0;
-  }
-
-  h1 {
+    margin: 0 0 0 0; }
+  .headcontent h1 {
     width: 300px;
     color: white;
-    margin: 0 0 0 10px;
-  }
-
-  p {
+    margin: 0 0 0 10px; }
+  .headcontent p {
     width: 200px;
     color: white;
-    margin: 0 0 10px 10px;
-  }
-
-  .search {
+    margin: 0 0 10px 10px; }
+  .headcontent .search {
     float: right;
     top: 100px;
     width: 40px;
     height: 20px;
     margin: 0 10px 0 0;
-    border-radius: 10px;
-
+    border-radius: 10px; }
     @media screen and (min-width: 649px) {
-      display: none;
-    }
-
-  }
-
-}
+      .headcontent .search {
+        display: none; } }
 
 nav {
   margin: 0 auto;
@@ -47,53 +34,34 @@ nav {
   height: 30px;
   background-color: #A5A5A5;
   border-radius: 5px;
-  padding: 10px 0 0 0;
-
-  .searchnav {
-    display: none;
-  }
-
+  padding: 10px 0 0 0; }
+  nav .searchnav {
+    display: none; }
   @media screen and (min-width: 649px) {
-    .searchnav {
+    nav .searchnav {
       display: block;
       float: right;
       width: 40px;
       height: 20px;
       margin: -4px 10px 0 0;
-      border-radius: 10px;
-    }
-  }
-
-
-
-  .litop {
-    // width: 20px;
+      border-radius: 10px; } }
+  nav .litop {
     height: 10px;
     float: left;
-    margin: 0 0 0 30px;
-  }
-
-  .litopstack {
+    margin: 0 0 0 30px; }
+  nav .litopstack {
     height: 10px;
     float: left;
-    margin: 0 0 0 30px;
-
-  }
-
-  ul {
+    margin: 0 0 0 30px; }
+  nav ul {
     margin: 0;
     padding: 0;
     width: 100%;
     list-style-type: none;
+    text-decoration: none; }
+  nav .list {
     text-decoration: none;
-  }
-
-  .list {
-    text-decoration: none;
-    float: left;
-  }
-
-}
+    float: left; }
 
 .otherdiv {
   width: calc(100% - 20px);
@@ -101,23 +69,14 @@ nav {
   margin: 20px 0 0 0;
   background-color: white;
   padding: 10px;
-  border-radius: 5px;
-  // background-image: url(../assets/images/post-image.jpg);
-  // background-repeat: no-repeat;
-
-  h2 {
+  border-radius: 5px; }
+  .otherdiv h2 {
     margin: 0 0 5px 0;
-    font-size: 2rem;
-  }
-
-  .peeotherdiv {
-    margin: 0 0 10px 0;
-  }
-
-  img {
-    border-radius: 10px;
-  }
-}
+    font-size: 2rem; }
+  .otherdiv .peeotherdiv {
+    margin: 0 0 10px 0; }
+  .otherdiv img {
+    border-radius: 10px; }
 
 .sidebar {
   width: 100%;
@@ -125,19 +84,7 @@ nav {
   margin-top: 20px;
   border-radius: 5px;
   background-color: white;
-  padding: 10px;
-
-  h3 {
+  padding: 10px; }
+  .sidebar h3 {
     margin: 0;
-    padding: 0;
-  }
-}
-
-
-
-
-
-// .clearfix {
-//   overflow: auto;
-//   zoom: 1;
-// }
+    padding: 0; }
