@@ -94,10 +94,11 @@ nav {
     margin: 0;
     padding: 0; }
   @media screen and (min-width: 650px) {
-    .sidebar .sidebar {
-      float: left;
-      width: 200px;
-      height: 200px; } }
+    .sidebar {
+      float: right;
+      width: 300px;
+      height: 200px;
+      margin: 20px 0 0 20px; } }
 
 .photos {
   width: calc(100% - 20px);
@@ -113,7 +114,8 @@ nav {
   .photos .sidebarimages {
     margin: 5px 0 0 5px; }
   @media screen and (min-width: 650px) {
-    .photos .photos {
-      float: left;
-      width: 200px;
-      height: 200px; } }
+    .photos {
+      float: right;
+      width: 300px;
+      height: 280px;
+      margin: 20px 0 20px 5px; } }
