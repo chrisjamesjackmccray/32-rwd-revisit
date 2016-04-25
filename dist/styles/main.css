@@ -63,19 +63,23 @@ nav {
     text-decoration: none;
     float: left; }
 
-.otherdiv {
+.centerdiv {
   width: calc(100% - 20px);
   height: 800px;
   margin: 20px 0 0 0;
   background-color: white;
   padding: 10px;
   border-radius: 5px; }
-  .otherdiv h2 {
+  @media screen and (min-width: 650px) {
+    .centerdiv {
+      width: 650px;
+      height: 800px; } }
+  .centerdiv h2 {
     margin: 0 0 5px 0;
     font-size: 2rem; }
-  .otherdiv .peeotherdiv {
+  .centerdiv .peeotherdiv {
     margin: 0 0 10px 0; }
-  .otherdiv img {
+  .centerdiv img {
     border-radius: 10px;
     width: calc(100% - 10px); }
 
@@ -89,14 +93,11 @@ nav {
   .sidebar h3 {
     margin: 0;
     padding: 0; }
-  @media screen and (min-width: 649px) {
+  @media screen and (min-width: 650px) {
     .sidebar .sidebar {
-      display: block;
-      float: right;
-      width: 40px;
-      height: 20px;
-      margin: -4px 10px 0 0;
-      border-radius: 10px; } }
+      float: left;
+      width: 200px;
+      height: 200px; } }
 
 .photos {
   width: calc(100% - 20px);
@@ -111,11 +112,8 @@ nav {
     font-size: 20px; }
   .photos .sidebarimages {
     margin: 5px 0 0 5px; }
-  @media screen and (min-width: 649px) {
+  @media screen and (min-width: 650px) {
     .photos .photos {
-      display: block;
-      float: right;
-      width: 40px;
-      height: 20px;
-      margin: -4px 10px 0 0;
-      border-radius: 10px; } }
+      float: left;
+      width: 200px;
+      height: 200px; } }
