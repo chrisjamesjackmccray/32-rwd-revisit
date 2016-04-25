@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 10px;
   background-image: url("../assets/images/background.jpg"); }
+  @media screen and (min-width: 1024px) {
+    body {
+      max-width: 1024px; } }
 
 .headcontent {
   width: 100%; }
@@ -72,8 +75,10 @@ nav {
   border-radius: 5px; }
   @media screen and (min-width: 650px) {
     .centerdiv {
-      width: 650px;
-      height: 800px; } }
+      width: 57%;
+      height: 800px;
+      float: left;
+      margin: 20px 0 20px 0; } }
   .centerdiv h2 {
     margin: 0 0 5px 0;
     font-size: 2rem; }
@@ -96,7 +101,7 @@ nav {
   @media screen and (min-width: 650px) {
     .sidebar {
       float: right;
-      width: 300px;
+      width: 33.33%;
       height: 200px;
       margin: 20px 0 0 20px; } }
 
@@ -116,6 +121,7 @@ nav {
   @media screen and (min-width: 650px) {
     .photos {
       float: right;
-      width: 300px;
+      width: 33.33%;
       height: 280px;
-      margin: 20px 0 20px 5px; } }
+      margin: 20px 0 20px 5px;
+      overflow-y: scroll; } }
