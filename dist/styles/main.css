@@ -2,9 +2,11 @@ body {
   margin: 0;
   padding: 10px;
   background-image: url("../assets/images/background.jpg"); }
-  @media screen and (min-width: 1024px) {
-    body {
-      max-width: 1024px; } }
+
+@media screen and (min-width: 1024px) {
+  .main {
+    max-width: 1024px;
+    margin: 0 auto; } }
 
 .headcontent {
   width: 100%; }

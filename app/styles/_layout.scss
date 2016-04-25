@@ -1,12 +1,19 @@
+
+
 body {
   margin: 0;
   padding: 10px;
   background-image: url('../assets/images/background.jpg');
 
 
+}
+
+.main {
   @media screen and (min-width: 1024px) {
     max-width: 1024px;
+    margin: 0 auto;
   }
+
 }
 
 .headcontent {
